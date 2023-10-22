@@ -1,0 +1,26 @@
+.dash-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.dynamic-dash{
+
+  margin: 3px;
+  padding: 3px;
+  border-bottom: 3px solid #d0d0d0;
+  font-family: "Noto Sans";
+  font-size: 18px;
+}
+
+.letter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: "Noto Sans";
+  font-size: 24px;
+}

@@ -1,0 +1,9 @@
+<div>
+  <div class="dash-container">
+    <div *ngFor="let index of dashIndexes" class="dynamic-letter"></div>
+    <div *ngFor="let index of dashIndexes" class="dynamic-dash">{{getFromPasswordCharAt(index-1)}}</div>
+  </div>
+  <div class="letter-container">
+
+  </div>
+</div>

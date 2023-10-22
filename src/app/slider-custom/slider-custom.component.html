@@ -1,0 +1,18 @@
+<div class="range">
+  <div class="slider-value">
+    <span id="slider-value-span" [style.left.%]="(rangeValue - 8) * 3.5">{{rangeValue}}</span>
+  </div>
+  <div class="field">
+    <div class="value left">8</div>
+    <input
+      id="slider-thumb"
+      type="range"
+      min="8"
+      max="32"
+      [(ngModel)]="rangeValue"
+      (input)="onRangeValueChanged(rangeValue)"
+    >
+    <div class="value right">32</div>
+
+  </div>
+</div>
